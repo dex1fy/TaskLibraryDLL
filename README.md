@@ -1,5 +1,5 @@
 <div align="center">
-<h1><img width="3%" alt="tasks-icon" src="https://cdn-icons-png.flaticon.com/512/5674/5674483.png"> SimpleTaskLibrary </h1>
+<h1><img width="3%" alt="tasks-icon" src="https://cdn-icons-png.flaticon.com/512/5674/5674483.png"> Task Library </h1>
 <p>Простая и легкая библиотека для работы с задачами на C#.</p>
 </div>
 
