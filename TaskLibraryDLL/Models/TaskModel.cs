@@ -9,6 +9,8 @@ namespace SimpleTaskLibrary.Models
         public string Description { get; set; } // Описание задачи
         public TaskStatuses Status { get; set; } // Статус задачи
 
+        public DateTime Deadline { get; set; }
+
         public TaskModel(string title, string description)
         {
             Id = Guid.NewGuid(); // Генерируем уникальный идентификатор

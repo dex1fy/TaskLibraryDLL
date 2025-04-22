@@ -38,10 +38,43 @@ namespace TaskLibraryDLL.Services
             return false;
         }
 
-        // Возвращает список всех задач
-        public IEnumerable<TaskModel> GetAllTasks()
+
+        // Устанавливает дедлайн задачи
+        public bool SetTaskDeadline(Guid taskId, DateTime deadline)
         {
-            return tasks.AsReadOnly();
+            var task = tasks.Find(t => t.Id == taskId);
+            if (task != null)
+            {
+                task.Deadline = deadline;
+                return true;
+            }
+            return false;
+        }
+
+        // Возвращает список всех задач (можно фильтровать)
+        public IEnumerable<TaskModel> GetTasks(
+            TaskStatuses? statusFilter = null,
+            bool? showOverdueOnly = false)
+        {
+            var query = tasks.AsEnumerable();
+
+            if (statusFilter != null)
+                query = query.Where(t => t.Status == statusFilter);
+
+            if (showOverdueOnly == true)
+                query = query.Where(t => t.Deadline < DateTime.Now);
+
+            return query.ToList().AsReadOnly();
+        }
+
+        // Возвращает минимальную статистику задач
+        public (int TotalTasks, int CompletedTasks, int OverdueTasks) GetTaskStatistics()
+        {
+            int total = tasks.Count;
+            int completed = tasks.Count(t => t.Status == TaskStatuses.Completed);
+            int overdue = tasks.Count(t => t.Deadline < DateTime.Now);
+
+            return (total, completed, overdue);
         }
     }
 }
