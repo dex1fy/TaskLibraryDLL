@@ -1,0 +1,12 @@
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\bin\Debug\net8.0\TaskLibraryDLL.deps.json
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\bin\Debug\net8.0\TaskLibraryDLL.dll
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\bin\Debug\net8.0\TaskLibraryDLL.pdb
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.AssemblyInfoInputs.cache
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.AssemblyInfo.cs
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.csproj.CoreCompileInputs.cache
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.sourcelink.json
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.dll
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\refint\TaskLibraryDLL.dll
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\TaskLibraryDLL.pdb
+C:\Users\dexify\source\repos\TaskLibraryDLL\TaskLibraryDLL\obj\Debug\net8.0\ref\TaskLibraryDLL.dll
