@@ -8,6 +8,7 @@ namespace SimpleTaskLibrary.Models
         public string Title { get; set; } // Название задачи
         public string Description { get; set; } // Описание задачи
         public TaskStatuses Status { get; set; } // Статус задачи
+
         public DateTime Deadline { get; set; }
 
         public TaskModel(string title, string description)
@@ -16,7 +17,6 @@ namespace SimpleTaskLibrary.Models
             Title = title;
             Description = description;
             Status = TaskStatuses.Active; // Изначально задача активна
-            
         }
     }
 
